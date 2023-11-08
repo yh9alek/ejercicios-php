@@ -19,7 +19,7 @@
         <title>Ejercicio 9</title>
     </head>
     <body>
-        <form action="ejercicio8.php" method="post">
+        <form action="ejercicio9.php" method="post">
         <label for="valorA">Numero 1:</label>
             <input type="text" name="valorA">
             <br>
