@@ -7,31 +7,14 @@
             echo "Numero 1 mayor a Numero 2";               // >= Mayor o Igual
             return;                                         // <= Menor o Igual
         }                                                   // == Igual
-        if($numero1 < $numero2) {                           // != Diferente
-            echo "Numero 1 menor a Numero 2";               // <> Diferente
-            return;
-        }                                                   // === Exacto (PHP no convertirá los operandos)
-        if($numero1 >= $numero2) {                          // !== No es exacto (Lo mismo que exacto)
-            echo "Numero 1 mayor o igual a Numero 2";       // <=> Devuelve un número entero menor, igual o mayor
-            return;                                         //     que 0 si es que el primer operando cumple esta
-        }                                                   //     misma condición.  Introducido en PHP 7
-        if($numero1 <= $numero2) {
-            echo "Numero 1 menor o igual a Numero 2";
-            return;
-        }
-        if($numero1 == $numero2) {
-            echo "Numero 1 igual a Numero 2";
-            return;
-        }
-        if($numero1 != $numero2) {
-            echo "Numero 1 diferente a Numero 2";
-            return;
-        }
-        if($numero1 <> $numero2) {
-            echo "Numero 1 diferente a Numero 2";
-            return;
-        }
-    }
+    }                                                       // != Diferente
+                                                            // <> Diferente
+            
+                                                            // === Exacto (PHP no convertirá los operandos)
+                                                            // !== No es exacto (Lo mismo que exacto)
+                                                            // <=> Devuelve un número entero menor, igual o mayor
+                                                            //     que 0 si es que el primer operando cumple esta
+                                                            //     misma condición.  Introducido en PHP 7
 ?>
 <!DOCTYPE html>
 <html lang="en">
