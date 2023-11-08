@@ -15,7 +15,7 @@
         <title>Ejercicio 10</title>
     </head>
     <body>
-        <form action="ejercicio10.php" method="post">
+        <form action="ejercicio_10.php" method="post">
         <label for="valorA">Numero 1:</label>
             <input type="text" name="valorA">
             <br>
