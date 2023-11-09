@@ -17,5 +17,22 @@
                                                  asignado. En este caso null adquiere como indice '5' ya que
                                                  el último indice númerico asignado hasta ese momento fue el 4
                                                  y el carrito verde comienza en 0, puesto que aún no se había
-                                                 asignado ningún indice númerico y por defecto es 0.*/ 
+                                                 asignado ningún indice númerico y por defecto es 0.*/
+    /*
+    FUNCIONES PARA ARRAYS
+    
+    asort(<array>): Ordenar un array por orden alfabético. [A~Z]
+    arsort(<array>): Ordenar un array por orden alfabético inverso. [Z~A]
+    sort(<array>): Ordenar un array por orden alfabético y además ordenar numéricamente.
+
+    $arrayejemplo[] = <valor>: Añadir un elemento a un array.
+    array_push(<array>, <valor>): Añadir un elemento a un array.
+    array_pop(<array>): Eliminar el último elemento de un array.
+    Se puede usar unset() para eliminar cualquier elemento de un array.
+    array_rand(<array>): Devuelve un elemento aleatorio de un array.
+    array_reverse(<array>): Devuelve un array invertido.
+    array_search(<valor>, <array>): Buscar un elemento dentro de un array Devuelve
+    un booleano.
+    count(<array>): Contar número de elementos de un array.
+    */
 ?>
